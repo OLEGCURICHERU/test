@@ -1,0 +1,20 @@
+Set<String> windows=driver.getWindowHandles();
+List<String> windowList=new ArrayList<String>(windows);
+driver.switchTo().window(windowlist.get(1));
+
+WebElement handles=driver.findElement(By.xpath(""));
+Assert.assertEquals("You are on the page", handle.getText());
+
+driver.switchTo().window(windowList.get(0));
+driver.switchTo().defaultContent();
+driver.switchTo().window(windowList.get(windowList.size()-1));
+
+
+Alert alert=driver.switchTo().alert();
+alert.accept();
+
+
+Select select=new Select(element);
+select.selectByValue("");
+select.selectByVisibleText("");
+select.selectByIndex();
